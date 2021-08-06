@@ -33,7 +33,7 @@ We started with a baseline model using the Dummy Classifier. This model had an a
 For our first models, we created a few vanilla models: 
 
 
-![image7](./images/)
+![image7](./images/result.png)
 
 
 Our vanilla models performed significantly better than the baseline model. However, as seen above table, the Decision Tree model and the Random Forest model were overfitting. 
