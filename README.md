@@ -64,7 +64,7 @@ After trying grid search with each vanilla model, we see that the best performin
 
 Our final model predicts the functionality of wells based on a couple of key features. Some of the best predictors in helping to determine functionality are construction year, payment type and water quantity. 
 
-![image2](./construction_year_vs_well.png)
+![image2](./images/construction_year_vs_well.png)
 
 As we can see, the construction year had a correlation with the condition of a well. The older construction years particularly before 1990 had a higher ratio of non-functioning to functioning wells, while the newer ones had the opposite ratio. We recommend the government focus on this factor when trying to target non functioning wells. 
 
