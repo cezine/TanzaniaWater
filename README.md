@@ -32,22 +32,8 @@ We started with a baseline model using the Dummy Classifier. This model had an a
 
 For our first models, we created a few vanilla models: 
 
-Vanilla Models\t
-Accuracy Scores (test  set)
-Accuracy Scores (train set)
-Decision Tree
-0.75
-0.99
-Random Forest
-0.80
-0.99
-XG Boosting
-0.75
-0.78
-Gradient Boosting
-0.69
-0.
 
+![image7](./images/)
 
 
 Our vanilla models performed significantly better than the baseline model. However, as seen above table, the Decision Tree model and the Random Forest model were overfitting. 
