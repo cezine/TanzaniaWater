@@ -32,7 +32,7 @@ We started with a baseline model using the Dummy Classifier. This model had an a
 
 For our first models, we created a few vanilla models: 
 
-Vanilla Models
+Vanilla Models\t
 Accuracy Scores (test  set)
 Accuracy Scores (train set)
 Decision Tree
