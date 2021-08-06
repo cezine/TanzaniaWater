@@ -1,7 +1,8 @@
 # Jupyter
 .ipynb_checkpoints/
 
-.pickle/
+# Ignore pickles
+*.pkl
 
 # Finder 
 .DS_Store
