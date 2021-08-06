@@ -55,6 +55,7 @@ Our vanilla models performed significantly better than the baseline model. Howev
 We then used Grid Search to try to reduce overfitting and find the best parameters for the models. 
 
 [Best grid search model, Images, confusion matrix]
+[image5](./images/best_Featrues_dt.png)
 
 After trying grid search with each vanilla model, we see that the best performing model is XXXX model with our set parameters. This model has an accuracy score of 0.---. Also, this model has a much higher true positive rate for the pumps that are either not functioning or need repairs. It can correctly identify the pumps that need repairs 78% of the time and the pumps not functioning 77% of the time. This is especially helpful when trying to improve maintenance operations and water accessibility for the communities across Tanzania. 
 
