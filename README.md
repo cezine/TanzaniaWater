@@ -4,6 +4,7 @@
 
 It is imperative for the Government of Tanzania to provide its people with clean water. Our goal is to help the Tanzanian Ministry of Water strategically predict which water pumps are functioning, which need repairs, and which don’t work at all. 
 
+
 ## DATA
 The data comes from the Taarifa waterpoints dashboard which aggregates data for the Tanzanian Ministry of Water. Taarifa is an open source platform for the crowdsourced reporting and triaging of infrastructure related issues. The dataset contains 59,400 data points with 39 features. 
 
@@ -65,7 +66,7 @@ Our final model predicts the functionality of wells based on a couple of key fea
 
 ![image2](./construction_year_vs_well.png)
 
-As we can see the construction year had a correlation with the condition of a well. The older construction years particularly before 1990 had a higher ratio of non-functioning to functioning wells, while the newer ones had the opposite ratio. We recommend the government focus on this factor when trying to target non functioning wells. 
+As we can see, the construction year had a correlation with the condition of a well. The older construction years particularly before 1990 had a higher ratio of non-functioning to functioning wells, while the newer ones had the opposite ratio. We recommend the government focus on this factor when trying to target non functioning wells. 
 
 ![image3](./images/paymenttype_vs_well.png)
 
