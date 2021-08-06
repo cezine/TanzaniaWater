@@ -17,7 +17,7 @@ Next, we investigated null values in the dataset. There were null values in some
 
 We also found that there were many zero values in several features such as ‘construction_year’ and ‘population’, which seemed odd.  We decided to clean ‘construction_year’, ‘gps_height (altitude of the well)’, ‘amount_tsh (water available to waterpoint)’ and ‘population’. We did not want to simply drop these zero values because they were a large part of the dataset. Instead,  we decided to create a new missing indicator column for them.
 
-![image1](./status_group.png)
+![image1](./images/status_group.png)
  
 In addition, there was class imbalance among three classes (wells functional, not functional, needs repairs). To mitigate the imbalance issue, we added a parameter, stratify, when splitting our dataset into train and test sets and decided to use SMOTE. 
 
@@ -67,13 +67,13 @@ Our final model predicts the functionality of wells based on a couple of key fea
 
 As we can see the construction year had a correlation with the condition of a well. The older construction years particularly before 1990 had a higher ratio of non-functioning to functioning wells, while the newer ones had the opposite ratio. We recommend the government focus on this factor when trying to target non functioning wells. 
 
-![image3](./paymenttype_vs_well.png)
+![image3](./images/paymenttype_vs_well.png)
 
 Another feature that affected the functionality of a well was the payment type. The non-functioning wells were largely in areas where citizens did not pay fees for the well. It is suggested that maybe the government subsidizes areas where there is no proper local government infrastructure to collect fees and perform upkeep.
 
 The payment fees for a well were also a factor in predicting whether pumps would remain functional or not. Pumps with payment options annually, monthly, or per bucket were more likely to be functioning. The pumps with no payment fees were the large majority of non-functioning pumps.
 
-![image4](./ quantity_vs_well.png)
+![image4](./images/quantity_vs_well.png)
 The third feature was the quantity of water available. In areas with enough water available the water pumps were most likely to be functional. 
 
 
