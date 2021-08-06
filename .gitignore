@@ -1,0 +1,7 @@
+# Jupyter
+.ipynb_checkpoints/
+
+.pickle/
+
+# Finder 
+.DS_Store
